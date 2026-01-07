@@ -1,4 +1,4 @@
-import {TOCId} from "./toc";
+import {TOCId, TOCs} from "./toc";
 
 /**
  * A train line
@@ -123,6 +123,14 @@ export const Lines = {
     displayName: "Windrush Line",
     colour: "#ed1b00",
     toc: "tfl",
+  },
+
+  // Other TOCs
+
+  thameslink: {
+    displayName: TOCs.thameslink.displayName,
+    colour: TOCs.thameslink.colour,
+    toc: "thameslink"
   },
 } as const satisfies Record<string, Line>;
 
