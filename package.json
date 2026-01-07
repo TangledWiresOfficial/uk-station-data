@@ -1,0 +1,9 @@
+{
+  "name": "@tangledwires/uk-station-data",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "TangledWires",
+  "type": "module",
+  "main": "index.js"
+}
