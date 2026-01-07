@@ -1,6 +1,6 @@
 {
   "name": "@tangledwires/uk-station-data",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "license": "MIT",
   "author": "TangledWires",
@@ -10,9 +10,6 @@
   "files": [
     "/dist"
   ],
-  "exports": {
-    ".": "./dist/index.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/TangledWiresOfficial/uk-station-data"
