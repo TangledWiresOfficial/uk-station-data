@@ -1,4 +1,4 @@
-import {LineId} from "./line.ts";
+import {LineId} from "./line";
 
 /**
  * A train station

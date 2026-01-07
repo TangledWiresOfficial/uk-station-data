@@ -1,2 +1,2 @@
-export * from "./line.ts";
-export * from "./station.ts";
+export * from "./line";
+export * from "./station";
