@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es2020",
     "useDefineForClassFields": true,
-    "module": "commonjs",
+    "module": "es6",
     "skipLibCheck": true,
     "declaration": true,
     "outDir": "./dist",
