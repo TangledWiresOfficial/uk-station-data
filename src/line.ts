@@ -126,11 +126,140 @@ export const Lines = {
   },
 
   // Other TOCs
-
+  avantiWestCoast: {
+    displayName: TOCs.avantiWestCoast.displayName,
+    colour: TOCs.avantiWestCoast.colour,
+    toc: "avantiWestCoast",
+  },
+  c2c: {
+    displayName: TOCs.c2c.displayName,
+    colour: TOCs.c2c.colour,
+    toc: "c2c",
+  },
+  caledonianSleeper: {
+    displayName: TOCs.caledonianSleeper.displayName,
+    colour: TOCs.caledonianSleeper.colour,
+    toc: "caledonianSleeper",
+  },
+  chiltern: {
+    displayName: TOCs.chiltern.displayName,
+    colour: TOCs.chiltern.colour,
+    toc: "chiltern",
+  },
+  crossCountry: {
+    displayName: TOCs.crossCountry.displayName,
+    colour: TOCs.crossCountry.colour,
+    toc: "crossCountry",
+  },
+  eastMidlandsRailway: {
+    displayName: TOCs.eastMidlandsRailway.displayName,
+    colour: TOCs.eastMidlandsRailway.colour,
+    toc: "eastMidlandsRailway",
+  },
+  gatwickExpress: {
+    displayName: TOCs.gatwickExpress.displayName,
+    colour: TOCs.gatwickExpress.colour,
+    toc: "gatwickExpress",
+  },
+  grandCentral: {
+    displayName: TOCs.grandCentral.displayName,
+    colour: TOCs.grandCentral.colour,
+    toc: "grandCentral",
+  },
+  greatNorthern: {
+    displayName: TOCs.greatNorthern.displayName,
+    colour: TOCs.greatNorthern.colour,
+    toc: "greatNorthern",
+  },
+  greatWesternRailway: {
+    displayName: TOCs.greatWesternRailway.displayName,
+    colour: TOCs.greatWesternRailway.colour,
+    toc: "greatWesternRailway",
+  },
+  greaterAnglia: {
+    displayName: TOCs.greaterAnglia.displayName,
+    colour: TOCs.greaterAnglia.colour,
+    toc: "greaterAnglia",
+  },
+  heathrowExpress: {
+    displayName: TOCs.heathrowExpress.displayName,
+    colour: TOCs.heathrowExpress.colour,
+    toc: "heathrowExpress",
+  },
+  hullTrains: {
+    displayName: TOCs.hullTrains.displayName,
+    colour: TOCs.hullTrains.colour,
+    toc: "hullTrains",
+  },
+  londonNorthEasternRailway: {
+    displayName: TOCs.londonNorthEasternRailway.displayName,
+    colour: TOCs.londonNorthEasternRailway.colour,
+    toc: "londonNorthEasternRailway",
+  },
+  londonNorthwesternRailway: {
+    displayName: TOCs.londonNorthwesternRailway.displayName,
+    colour: TOCs.londonNorthwesternRailway.colour,
+    toc: "londonNorthwesternRailway",
+  },
+  lumo: {
+    displayName: TOCs.lumo.displayName,
+    colour: TOCs.lumo.colour,
+    toc: "lumo",
+  },
+  northernRail: {
+    displayName: TOCs.northernRail.displayName,
+    colour: TOCs.northernRail.colour,
+    toc: "northernRail",
+  },
+  scotRail: {
+    displayName: TOCs.scotRail.displayName,
+    colour: TOCs.scotRail.colour,
+    toc: "scotRail",
+  },
+  southWesternRailway: {
+    displayName: TOCs.southWesternRailway.displayName,
+    colour: TOCs.southWesternRailway.colour,
+    toc: "southWesternRailway",
+  },
+  southeastern: {
+    displayName: TOCs.southeastern.displayName,
+    colour: TOCs.southeastern.colour,
+    toc: "southeastern",
+  },
+  southeasternHighSpeed: {
+    displayName: TOCs.southeasternHighSpeed.displayName,
+    colour: TOCs.southeasternHighSpeed.colour,
+    toc: "southeasternHighSpeed",
+  },
+  southern: {
+    displayName: TOCs.southern.displayName,
+    colour: TOCs.southern.colour,
+    toc: "southern",
+  },
+  stanstedExpress: {
+    displayName: TOCs.stanstedExpress.displayName,
+    colour: TOCs.stanstedExpress.colour,
+    toc: "stanstedExpress",
+  },
   thameslink: {
     displayName: TOCs.thameslink.displayName,
     colour: TOCs.thameslink.colour,
-    toc: "thameslink"
+    toc: "thameslink",
+  },
+  transPennineExpress: {
+    displayName: TOCs.transPennineExpress.displayName,
+    colour: TOCs.transPennineExpress.colour,
+    toc: "transPennineExpress",
+  },
+  transportForWales: {
+    displayName: TOCs.transportForWales.displayName,
+    colour: TOCs.transportForWales.colour,
+    toc: "transportForWales",
+  },
+  westMidlandsRailway: {
+    displayName: TOCs.westMidlandsRailway.displayName,
+    colour: TOCs.westMidlandsRailway.colour,
+    toc: "westMidlandsRailway",
   },
 } as const satisfies Record<string, Line>;
 
