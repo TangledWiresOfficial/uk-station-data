@@ -96,6 +96,7 @@ export const TOCs = {
     displayName: "Stansted Express",
     colour: "#6b717a",
   },
+  // Not really a TOC, but it's easier to understand this way
   tfl: {
     displayName: "TfL",
     colour: "#0019a8",
