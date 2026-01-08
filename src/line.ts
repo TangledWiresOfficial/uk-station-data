@@ -142,7 +142,7 @@ export const Lines = {
     toc: "caledonianSleeper",
   },
   chiltern: {
-    displayName: TOCs.chiltern.displayName,
+    displayName: "Chiltern Railways",
     colour: TOCs.chiltern.colour,
     toc: "chiltern",
   },
