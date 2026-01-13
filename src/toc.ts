@@ -32,13 +32,13 @@ export const TOCs = {
     displayName: "Gatwick Express",
     colour: "#eb1e2d",
   },
+goviaThameslinkRailway: {
+    displayName: "Govia Thameslink Railway",
+    colour: "#ff5aa4",
+  },
   grandCentral: {
     displayName: "Grand Central",
     colour: "#1d1d1b",
-  },
-  greatNorthern: {
-    displayName: "Great Northern",
-    colour: "#00ABE6",
   },
   greatWesternRailway: {
     displayName: "Great Western Railway",
@@ -60,15 +60,15 @@ export const TOCs = {
     displayName: "London North Eastern Railway",
     colour: "#ce0e2d",
   },
-  londonNorthwesternRailway: {
-    displayName: "London Northwestern Railway",
-    colour: "#00bf6f",
+  londonOverground: {
+    displayName: "London Overground",
+    colour: "#fa7b05",
   },
   lumo: {
     displayName: "Lumo",
     colour: "#2b6ef5",
   },
-  northernRail: {
+  northernTrains: {
     displayName: "Northern",
     colour: "#0f0d78",
   },
@@ -84,26 +84,10 @@ export const TOCs = {
     displayName: "Southeastern",
     colour: "#389cff",
   },
-  southeasternHighSpeed: {
-    displayName: "Southeastern High Speed",
-    colour: "#1e1e50",
-  },
-  southern: {
-    displayName: "Southern",
-    colour: "#8cc63e",
-  },
-  stanstedExpress: {
-    displayName: "Stansted Express",
-    colour: "#6b717a",
-  },
   // Not really a TOC, but it's easier to understand this way
   tfl: {
     displayName: "TfL",
     colour: "#0019a8",
-  },
-  thameslink: {
-    displayName: "Thameslink",
-    colour: "#ff5aa4",
   },
   transPennineExpress: {
     displayName: "TransPennine Express",
@@ -113,9 +97,9 @@ export const TOCs = {
     displayName: "Transport for Wales",
     colour: "#ff0000",
   },
-  westMidlandsRailway: {
-    displayName: "West Midlands Railway",
-    colour: "#ff8300",
+  westMidlandsTrains: {
+    displayName: "West Midlands Trains",
+    colour: "#e07709",
   },
 } as const satisfies Record<string, TOC>;
 

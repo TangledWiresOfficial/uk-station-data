@@ -13,63 +13,64 @@ export type Line = {
  * A list of all {@link Line}s
  */
 export const Lines = {
+  // London Underground lines
   bakerloo: {
-    displayName: "Bakerloo",
+    displayName: "Bakerloo Line",
     colour: "#a45a2a",
     toc: "tfl",
   },
   central: {
-    displayName: "Central",
+    displayName: "Central Line",
     colour: "#da291c",
     toc: "tfl",
   },
   circle: {
-    displayName: "Circle",
+    displayName: "Circle Line",
     colour: "#ffcd00",
     toc: "tfl",
   },
   district: {
-    displayName: "District",
+    displayName: "District Line",
     colour: "#007a33",
     toc: "tfl",
   },
   hammersmithAndCity: {
-    displayName: "Hammersmith & City",
+    displayName: "Hammersmith & City Line",
     colour: "#e89cae",
     toc: "tfl",
   },
   jubilee: {
-    displayName: "Jubilee",
+    displayName: "Jubilee Line",
     colour: "#7c878e",
     toc: "tfl",
   },
   metropolitan: {
-    displayName: "Metropolitan",
+    displayName: "Metropolitan Line",
     colour: "#840b55",
     toc: "tfl",
   },
   northern: {
-    displayName: "Northern",
+    displayName: "Northern Line",
     colour: "#000000",
     toc: "tfl",
   },
   piccadilly: {
-    displayName: "Piccadilly",
+    displayName: "Piccadilly Line",
     colour: "#10069f",
     toc: "tfl",
   },
   victoria: {
-    displayName: "Victoria",
+    displayName: "Victoria Line",
     colour: "#00a3e0",
     toc: "tfl",
   },
   waterlooAndCity: {
-    displayName: "Waterloo & City",
+    displayName: "Waterloo & City Line",
     colour: "#6eceb2",
     toc: "tfl",
   },
 
-  // TfL services
+  // Other TfL services
 
   elizabeth: {
     displayName: "Elizabeth Line",
@@ -82,7 +83,7 @@ export const Lines = {
     toc: "tfl",
   },
   trams: {
-    displayName: "Trams",
+    displayName: "London Trams",
     colour: "#5fb526",
     toc: "tfl",
   },
@@ -92,37 +93,37 @@ export const Lines = {
     toc: "tfl",
   },
 
-  // Overground lines
+  // London Overground lines
 
   liberty: {
     displayName: "Liberty Line",
     colour: "#5d6061",
-    toc: "tfl",
+    toc: "londonOverground",
   },
   lioness: {
     displayName: "Lioness Line",
     colour: "#faa61a",
-    toc: "tfl",
+    toc: "londonOverground",
   },
   mildmay: {
     displayName: "Mildmay Line",
     colour: "#0077ad",
-    toc: "tfl",
+    toc: "londonOverground",
   },
   suffragette: {
     displayName: "Suffragette Line",
     colour: "#5bb972",
-    toc: "tfl",
+    toc: "londonOverground",
   },
   weaver: {
     displayName: "Weaver Line",
     colour: "#823a62",
-    toc: "tfl",
+    toc: "londonOverground",
   },
   windrush: {
     displayName: "Windrush Line",
     colour: "#ed1b00",
-    toc: "tfl",
+    toc: "londonOverground",
   },
 
   // Other TOCs
@@ -157,9 +158,9 @@ export const Lines = {
     toc: "eastMidlandsRailway",
   },
   gatwickExpress: {
-    displayName: TOCs.gatwickExpress.displayName,
-    colour: TOCs.gatwickExpress.colour,
-    toc: "gatwickExpress",
+    displayName: "Gatwick Express",
+    colour: "#eb1e2d",
+    toc: "goviaThameslinkRailway",
   },
   grandCentral: {
     displayName: TOCs.grandCentral.displayName,
@@ -167,9 +168,9 @@ export const Lines = {
     toc: "grandCentral",
   },
   greatNorthern: {
-    displayName: TOCs.greatNorthern.displayName,
-    colour: TOCs.greatNorthern.colour,
-    toc: "greatNorthern",
+    displayName: "Great Northern",
+    colour: "#00ABE6",
+    toc: "goviaThameslinkRailway",
   },
   greatWesternRailway: {
     displayName: TOCs.greatWesternRailway.displayName,
@@ -191,25 +192,30 @@ export const Lines = {
     colour: TOCs.hullTrains.colour,
     toc: "hullTrains",
   },
+  islandLineTrains: {
+    displayName: "Island Line",
+    colour: "#1e90ff",
+    toc: "southWesternRailway",
+  },  
   londonNorthEasternRailway: {
     displayName: TOCs.londonNorthEasternRailway.displayName,
     colour: TOCs.londonNorthEasternRailway.colour,
     toc: "londonNorthEasternRailway",
   },
   londonNorthwesternRailway: {
-    displayName: TOCs.londonNorthwesternRailway.displayName,
-    colour: TOCs.londonNorthwesternRailway.colour,
-    toc: "londonNorthwesternRailway",
+    displayName: "London Northwestern Railway",
+    colour: "#00bf6f",
+    toc: "westMidlandsTrains",
   },
   lumo: {
     displayName: TOCs.lumo.displayName,
     colour: TOCs.lumo.colour,
     toc: "lumo",
   },
-  northernRail: {
-    displayName: TOCs.northernRail.displayName,
-    colour: TOCs.northernRail.colour,
-    toc: "northernRail",
+  northernTrains: {
+    displayName: TOCs.northernTrains.displayName,
+    colour: TOCs.northernTrains.colour,
+    toc: "northernTrains",
   },
   scotRail: {
     displayName: TOCs.scotRail.displayName,
@@ -227,24 +233,24 @@ export const Lines = {
     toc: "southeastern",
   },
   southeasternHighSpeed: {
-    displayName: TOCs.southeasternHighSpeed.displayName,
-    colour: TOCs.southeasternHighSpeed.colour,
-    toc: "southeasternHighSpeed",
+    displayName: "Southeastern High Speed",
+    colour: "#1e1e50",
+    toc: "southeastern",
   },
   southern: {
-    displayName: TOCs.southern.displayName,
-    colour: TOCs.southern.colour,
-    toc: "southern",
+    displayName: "Southern",
+    colour: "#8cc63e",
+    toc: "goviaThameslinkRailway",
   },
   stanstedExpress: {
-    displayName: TOCs.stanstedExpress.displayName,
-    colour: TOCs.stanstedExpress.colour,
-    toc: "stanstedExpress",
+    displayName: "Stansted Express",
+    colour: "#6b717a",
+    toc: "greaterAnglia"
   },
   thameslink: {
-    displayName: TOCs.thameslink.displayName,
-    colour: TOCs.thameslink.colour,
-    toc: "thameslink",
+    displayName: "Thameslink",
+    colour: "#ff5aa4",
+    toc: "goviaThameslinkRailway",
   },
   transPennineExpress: {
     displayName: TOCs.transPennineExpress.displayName,
@@ -257,9 +263,9 @@ export const Lines = {
     toc: "transportForWales",
   },
   westMidlandsRailway: {
-    displayName: TOCs.westMidlandsRailway.displayName,
-    colour: TOCs.westMidlandsRailway.colour,
-    toc: "westMidlandsRailway",
+    displayName: "westMidlandsRailway",
+    colour: "#ff8300",
+    toc: "westMidlandsTrains",
   },
 } as const satisfies Record<string, Line>;
 
