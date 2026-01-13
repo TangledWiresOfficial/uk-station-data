@@ -679,7 +679,7 @@ export const Stations = {
   westHarrow: {displayName: "West Harrow", lines: ["metropolitan"]},
   westIndiaQuay: {displayName: "West India Quay", lines: ["dlr"]},
   westKensington: {displayName: "West Kensington", lines: ["district"]},
-  westNorwood: {displayName: "West Norwood", lines: ["westNoorwood"]},
+  westNorwood: {displayName: "West Norwood", lines: ["southern"]},
   westRuislip: {displayName: "West Ruislip", lines: ["central"]},
   westSilvertown: {displayName: "West Silvertown", lines: ["dlr"]},
   westSutton: {displayName: "West Sutton", lines: ["thameslink"]},
