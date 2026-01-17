@@ -14,57 +14,57 @@ export type Line = {
  */
 export const Lines = {
   // London Underground lines
-  bakerloo: {
+  LUbakerloo: {
     displayName: "Bakerloo Line",
     colour: "#a45a2a",
     toc: "tfl",
   },
-  central: {
+  LUcentral: {
     displayName: "Central Line",
     colour: "#da291c",
     toc: "tfl",
   },
-  circle: {
+  LUcircle: {
     displayName: "Circle Line",
     colour: "#ffcd00",
     toc: "tfl",
   },
-  district: {
+  LUdistrict: {
     displayName: "District Line",
     colour: "#007a33",
     toc: "tfl",
   },
-  hammersmithAndCity: {
+  LUhammersmithAndCity: {
     displayName: "Hammersmith & City Line",
     colour: "#e89cae",
     toc: "tfl",
   },
-  jubilee: {
+  LUjubilee: {
     displayName: "Jubilee Line",
     colour: "#7c878e",
     toc: "tfl",
   },
-  metropolitan: {
+  LUmetropolitan: {
     displayName: "Metropolitan Line",
     colour: "#840b55",
     toc: "tfl",
   },
-  northern: {
+  LUnorthern: {
     displayName: "Northern Line",
     colour: "#000000",
     toc: "tfl",
   },
-  piccadilly: {
+  LUpiccadilly: {
     displayName: "Piccadilly Line",
     colour: "#10069f",
     toc: "tfl",
   },
-  victoria: {
+  LUvictoria: {
     displayName: "Victoria Line",
     colour: "#00a3e0",
     toc: "tfl",
   },
-  waterlooAndCity: {
+  LUwaterlooAndCity: {
     displayName: "Waterloo & City Line",
     colour: "#6eceb2",
     toc: "tfl",
@@ -82,12 +82,12 @@ export const Lines = {
     colour: "#00afad",
     toc: "tfl",
   },
-  trams: {
+  londonTrams: {
     displayName: "London Trams",
     colour: "#5fb526",
     toc: "tfl",
   },
-  cableCar: {
+  londonCableCar: {
     displayName: "IFS Cloud Cable Car",
     colour: "#734fa0",
     toc: "tfl",
@@ -95,32 +95,32 @@ export const Lines = {
 
   // London Overground lines
 
-  liberty: {
+  LOliberty: {
     displayName: "Liberty Line",
     colour: "#5d6061",
     toc: "londonOverground",
   },
-  lioness: {
+  LOlioness: {
     displayName: "Lioness Line",
     colour: "#faa61a",
     toc: "londonOverground",
   },
-  mildmay: {
+  LOmildmay: {
     displayName: "Mildmay Line",
     colour: "#0077ad",
     toc: "londonOverground",
   },
-  suffragette: {
+  LOsuffragette: {
     displayName: "Suffragette Line",
     colour: "#5bb972",
     toc: "londonOverground",
   },
-  weaver: {
+  LOweaver: {
     displayName: "Weaver Line",
     colour: "#823a62",
     toc: "londonOverground",
   },
-  windrush: {
+  LOwindrush: {
     displayName: "Windrush Line",
     colour: "#ed1b00",
     toc: "londonOverground",
