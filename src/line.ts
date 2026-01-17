@@ -137,9 +137,14 @@ export const Lines = {
     colour: TOCs.c2c.colour,
     toc: "c2c",
   },
-  caledonianSleeper: {
-    displayName: TOCs.caledonianSleeper.displayName,
-    colour: TOCs.caledonianSleeper.colour,
+    CSlowlander: {
+    displayName: "Lowlander Sleeper",
+    colour: "#b26734",
+    toc: "crossCountry",
+  },
+    CShighlander: {
+    displayName: "Highlander Sleeper",
+    colour: "#006984",
     toc: "caledonianSleeper",
   },
   chiltern: {
@@ -263,7 +268,7 @@ export const Lines = {
     toc: "transportForWales",
   },
   westMidlandsRailway: {
-    displayName: "West Midlands Railway",
+    displayName: "westMidlandsRailway",
     colour: "#ff8300",
     toc: "westMidlandsTrains",
   },
