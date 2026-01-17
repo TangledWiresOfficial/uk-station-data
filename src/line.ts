@@ -268,7 +268,7 @@ export const Lines = {
     toc: "transportForWales",
   },
   westMidlandsRailway: {
-    displayName: "westMidlandsRailway",
+    displayName: "West Midlands Railway",
     colour: "#ff8300",
     toc: "westMidlandsTrains",
   },
