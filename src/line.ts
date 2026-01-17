@@ -140,7 +140,7 @@ export const Lines = {
     CSlowlander: {
     displayName: "Lowlander Sleeper",
     colour: "#b26734",
-    toc: "crossCountry",
+    toc: "caledonianSleeper",
   },
     CShighlander: {
     displayName: "Highlander Sleeper",
