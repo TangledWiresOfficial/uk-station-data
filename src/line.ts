@@ -137,10 +137,15 @@ export const Lines = {
     colour: TOCs.c2c.colour,
     toc: "c2c",
   },
-  caledonianSleeper: {
-    displayName: TOCs.caledonianSleeper.displayName,
-    colour: TOCs.caledonianSleeper.colour,
-    toc: "caledonianSleeper",
+  CSLowlander: {
+  displayName: "Lowlander Sleeper",
+  colour: "#b26734",
+  toc: "caledonianSleeper",
+  },
+  CSHighlander: {
+  displayName: "Highlander Sleeper",
+  colour: "#006984",
+  toc: "caledonianSleeper",
   },
   chiltern: {
     displayName: "Chiltern Railways",
