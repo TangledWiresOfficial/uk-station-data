@@ -137,12 +137,12 @@ export const Lines = {
     colour: TOCs.c2c.colour,
     toc: "c2c",
   },
-    CSlowlander: {
+    CSLowLander: {
     displayName: "Lowlander Sleeper",
     colour: "#b26734",
     toc: "caledonianSleeper",
   },
-    CShighlander: {
+    CSHighLander: {
     displayName: "Highlander Sleeper",
     colour: "#006984",
     toc: "caledonianSleeper",
