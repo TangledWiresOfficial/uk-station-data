@@ -272,6 +272,13 @@ export const Lines = {
     colour: "#ff8300",
     toc: "westMidlandsTrains",
   },
+  
+  // other metro systems
+  glasgowSubway: {
+    displayName: "Glasgow Subway",
+    colour: "#FF6200",
+    toc: "glasgowSubway",
+  },
 } as const satisfies Record<string, Line>;
 
 export type LineId = keyof typeof Lines;

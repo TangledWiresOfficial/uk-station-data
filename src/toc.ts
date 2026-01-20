@@ -32,6 +32,10 @@ export const TOCs = {
     displayName: "Gatwick Express",
     colour: "#eb1e2d",
   },
+  glasgowSubway: {
+    displayName: "Glasgow Subway",
+    colour: "#FF6200",
+  },
 goviaThameslinkRailway: {
     displayName: "Govia Thameslink Railway",
     colour: "#ff5aa4",
