@@ -296,7 +296,7 @@ export const Stations = {
   edgware: {displayName: "Edgware", lines: ["northern"]},
   edgwareRoad1: {displayName: "Edgware Road", lines: ["bakerloo"]},
   edgwareRoad2: {displayName: "Edgware Road", lines: ["hammersmithAndCity", "district", "circle"]},
-  edinburgh: {displayName: "Edinburgh", lines: ["csLowlander"]},
+  edinburgh: {displayName: "Edinburgh Waverley", lines: ["csLowlander", "lumo"]},
   edmontonGreen: {displayName: "Edmonton Green", lines: ["weaver"]},
   effinghamJunction: {displayName: "Effingham Junction", lines: ["southern"]},
   elephantAndCastle: {displayName: "Elephant & Castle", lines: ["northern", "bakerloo"]},
