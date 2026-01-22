@@ -58,7 +58,7 @@ export const Stations = {
   audleyEnd: {displayName: "Audley End", lines: ["crossCountry"]},
   avenueRoad: {displayName: "Avenue Road", lines: ["trams"]},
   aviemore: {displayName: "Aviemore", lines: ["csHighlander"]},
-  bakerStreet: {displayName: "Baker Street",lines: ["metropolitan", "bakerloo", "circle", "jubilee", "hammersmithAndCity"]},
+  bakerStreet: {displayName: "Baker Street", lines: ["metropolitan", "bakerloo", "circle", "jubilee", "hammersmithAndCity"]},
   balcombe: {displayName: "Balcombe", lines: ["southern", "thameslink"]},
   baldock: {displayName: "Baldock", lines: ["greatNorthern", "thameslink"]},
   balham: {displayName: "Balham", lines: ["northern", "southern"]},
