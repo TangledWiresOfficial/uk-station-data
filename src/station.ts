@@ -322,6 +322,7 @@ export const Stations = {
   eynsford: {displayName: "Eynsford", lines: ["thameslink"]},
   fairlop: {displayName: "Fairlop", lines: ["central"]},
   falkirkGrahamston: {displayName: "Falkirk Grahamston", lines: ["csHighlander"]},
+  falkirkHigh: {displayName: "Falkirk High", lines: ["lumo"]},
   falmer: {displayName: "Falmer", lines: ["southern"]},
   fareham: {displayName: "Fareham", lines: ["southern"]},
   farringdon: {displayName: "Farringdon", lines: ["metropolitan", "circle", "hammersmithAndCity", "elizabeth", "thameslink"]},
