@@ -12,9 +12,6 @@ export type Station = {
  * A list of all {@link Station}s
  */
 export const Stations = {
-
-
-  
   abbeyRoad: {displayName: "Abbey Road", lines: ["dlr"]},
   abbeyWood: {displayName: "Abbey Wood", lines: ["elizabeth", "thameslink"]},
   aberdeen: {displayName: "Aberdeen", lines: ["crossCountry", "csHighlander"]},
