@@ -28,6 +28,10 @@ export const TOCs = {
     displayName: "East Midlands Railway",
     colour: "#713563",
   },
+  edinburghTrams: {
+    displayName: "Edinburgh Trams",
+    colour: "#8D181B",
+  },
   gatwickExpress: {
     displayName: "Gatwick Express",
     colour: "#eb1e2d",
