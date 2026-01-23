@@ -82,7 +82,7 @@ export const Lines = {
     colour: "#00afad",
     toc: "tfl",
   },
-  trams: {
+  londonTrams: {
     displayName: "London Trams",
     colour: "#5fb526",
     toc: "tfl",
@@ -274,6 +274,11 @@ export const Lines = {
   },
   
   // other metro systems
+  edinburghTrams: {
+    displayName: TOCs.edinburghTrams.displayName,
+    colour: TOCs.edinburghTrams.colour,
+    toc: "edinburghTrams",
+  },
   glasgowSubway: {
     displayName: "Glasgow Subway",
     colour: "#FF6200",
