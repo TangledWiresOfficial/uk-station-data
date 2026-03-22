@@ -59,10 +59,7 @@ export const Stations = {
   audleyEnd: {displayName: "Audley End", lines: ["crossCountry"]},
   avenueRoad: {displayName: "Avenue Road", lines: ["londonTrams"]},
   aviemore: {displayName: "Aviemore", lines: ["csHighlander"]},
-  bakerStreet: {
-    displayName: "Baker Street",
-    lines: ["metropolitan", "bakerloo", "circle", "jubilee", "hammersmithAndCity"]
-  },
+  bakerStreet: {displayName: "Baker Street", lines: ["metropolitan", "bakerloo", "circle", "jubilee", "hammersmithAndCity"]},
   balcombe: {displayName: "Balcombe", lines: ["southern", "thameslink"]},
   baldock: {displayName: "Baldock", lines: ["greatNorthern", "thameslink"]},
   balfourStreet: {displayName: "Balfour Street", lines: ["edinburghTrams"]},
@@ -370,10 +367,7 @@ export const Stations = {
   falkirkHigh: {displayName: "Falkirk High", lines: ["lumo"]},
   falmer: {displayName: "Falmer", lines: ["southern"]},
   fareham: {displayName: "Fareham", lines: ["southern"]},
-  farringdon: {
-    displayName: "Farringdon",
-    lines: ["metropolitan", "circle", "hammersmithAndCity", "elizabeth", "thameslink"]
-  },
+  farringdon: {displayName: "Farringdon", lines: ["metropolitan", "circle", "hammersmithAndCity", "elizabeth", "thameslink"]},
   faygate: {displayName: "Faygate", lines: ["thameslink", "southern"]},
   fieldway: {displayName: "Fieldway", lines: ["londonTrams"]},
   finchleyCentral: {displayName: "Finchley Central", lines: ["northern"]},
@@ -500,10 +494,7 @@ export const Stations = {
   highStreetKensington: {displayName: "High Street Kensington", lines: ["district", "circle"]},
   highamKent: {displayName: "Higham (Kent)", lines: ["thameslink"]},
   highamsPark: {displayName: "Highams Park", lines: ["weaver"]},
-  highburyAndIslington: {
-    displayName: "Highbury & Islington",
-    lines: ["victoria", "mildmay", "windrush", "greatNorthern", "thameslink"]
-  },
+  highburyAndIslington: {displayName: "Highbury & Islington", lines: ["victoria", "mildmay", "windrush", "greatNorthern", "thameslink"]},
   highgate: {displayName: "Highgate", lines: ["northern"]},
   hillhead: {displayName: "Hillhead", lines: ["glasgowSubway"]},
   hillingdon: {displayName: "Hillingdon", lines: ["metropolitan", "piccadilly"]},
@@ -563,10 +554,7 @@ export const Stations = {
   kingGeorgeV: {displayName: "King George V", lines: ["dlr"]},
   kingHenrysDrive: {displayName: "King Henry's Drive", lines: ["londonTrams"]},
   kingsCross: {displayName: "King's Cross", lines: ["greatNorthern", "thameslink", "lumo"]},
-  kingsCrossStPancras: {
-    displayName: "King's Cross St Pancras",
-    lines: ["metropolitan", "northern", "piccadilly", "circle", "victoria", "hammersmithAndCity"]
-  },
+  kingsCrossStPancras: {displayName: "King's Cross St Pancras", lines: ["metropolitan", "northern", "piccadilly", "circle", "victoria", "hammersmithAndCity"]},
   kingsbury: {displayName: "Kingsbury", lines: ["jubilee"]},
   kingslynn: {displayName: "Kingslynn", lines: ["greatNorthern"]},
   kingswood: {displayName: "Kingswood", lines: ["southern"]},
@@ -614,10 +602,7 @@ export const Stations = {
   littleport: {displayName: "Littleport", lines: ["greatNorthern"]},
   liverpoolLimeStreet: {displayName: "Liverpool Lime Street", lines: ["eastMidlandsRailway"]},
   liverpoolSouthParkway: {displayName: "Liverpool South Parkway", lines: ["eastMidlandsRailway"]},
-  liverpoolStreet: {
-    displayName: "Liverpool Street",
-    lines: ["metropolitan", "central", "circle", "hammersmithAndCity", "weaver", "elizabeth", "stanstedExpress", "c2c"]
-  },
+  liverpoolStreet: {displayName: "Liverpool Street", lines: ["metropolitan", "central", "circle", "hammersmithAndCity", "weaver", "elizabeth", "stanstedExpress", "c2c"]},
   lloydPark: {displayName: "Lloyd Park", lines: ["londonTrams"]},
   londonBlackfriars: {displayName: "London Blackfriars", lines: ["thameslink"]},
   londonBridge: {displayName: "London Bridge", lines: ["northern", "jubilee", "southern", "thameslink", "southern"]},
@@ -637,10 +622,7 @@ export const Stations = {
   lowtherAvenue: {displayName: "Lowther Avenue", lines: ["blackpoolTramway"]},
   luton: {displayName: "Luton", lines: ["eastMidlandsRailway", "thameslink"]},
   lutonAirport: {displayName: "Luton Airport", lines: ["lutonDart"]},
-  lutonAirportParkway: {
-    displayName: "Luton Airport Parkway",
-    lines: ["eastMidlandsRailway", "thameslink", "lutonDart"]
-  },
+  lutonAirportParkway: {displayName: "Luton Airport Parkway", lines: ["eastMidlandsRailway", "thameslink", "lutonDart"]},
   lydney: {displayName: "Lydney", lines: ["crossCountry"]},
   macclesfield: {displayName: "Macclesfield", lines: ["crossCountry"]},
   maidaVale: {displayName: "Maida Vale", lines: ["bakerloo"]},
@@ -678,10 +660,7 @@ export const Stations = {
   montrose: {displayName: "Montrose", lines: ["crossCountry", "csHighlander"]},
   monument: {displayName: "Monument", lines: ["district", "circle"]},
   moorPark: {displayName: "Moor Park", lines: ["metropolitan"]},
-  moorgate: {
-    displayName: "Moorgate",
-    lines: ["metropolitan", "northern", "circle", "hammersmithAndCity", "greatNorthern"]
-  },
+  moorgate: {displayName: "Moorgate", lines: ["metropolitan", "northern", "circle", "hammersmithAndCity", "greatNorthern"]},
   morden: {displayName: "Morden", lines: ["northern"]},
   mordenRoad: {displayName: "Morden Road", lines: ["londonTrams"]},
   mordenSouth: {displayName: "Morden South", lines: ["thameslink"]},
@@ -754,10 +733,7 @@ export const Stations = {
   oxford: {displayName: "Oxford", lines: ["crossCountry"]},
   oxfordCircus: {displayName: "Oxford Circus", lines: ["central", "bakerloo", "victoria"]},
   oxted: {displayName: "Oxted", lines: ["southern", "thameslink"]},
-  paddington: {
-    displayName: "Paddington",
-    lines: ["district", "circle", "bakerloo", "hammersmithAndCity", "elizabeth", "heathrowExpress"]
-  },
+  paddington: {displayName: "Paddington", lines: ["district", "circle", "bakerloo", "hammersmithAndCity", "elizabeth", "heathrowExpress"]},
   paignton: {displayName: "Paignton", lines: ["crossCountry"]},
   palmersGreen: {displayName: "Palmers Green", lines: ["greatNorthern"]},
   par: {displayName: "Par", lines: ["crossCountry"]},
@@ -771,10 +747,7 @@ export const Stations = {
   penzance: {displayName: "Penzance", lines: ["crossCountry"]},
   perivale: {displayName: "Perivale", lines: ["central"]},
   perth: {displayName: "Perth", lines: ["csHighlander"]},
-  peterborough: {
-    displayName: "Peterborough",
-    lines: ["crossCountry", "thameslink", "greatNorthern", "eastMidlandsRailway"]
-  },
+  peterborough: {displayName: "Peterborough", lines: ["crossCountry", "thameslink", "greatNorthern", "eastMidlandsRailway"]},
   pettsWood: {displayName: "Petts Wood", lines: ["thameslink"]},
   pevenseyAndWestham: {displayName: "Pevensey & Westham", lines: ["southern"]},
   pevenseyBay: {displayName: "Pevensey Bay", lines: ["southern"]},
