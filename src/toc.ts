@@ -66,7 +66,7 @@ goviaThameslinkRailway: {
   },
   hullTrains: {
     displayName: "Hull Trains",
-    colour: "#de005c",
+    colour: "#cc0066",
   },
   londonNorthEasternRailway: {
     displayName: "London North Eastern Railway",
